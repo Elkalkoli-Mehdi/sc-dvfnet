@@ -1,20 +1,25 @@
-# SC-DVFNet 
+# SC-DVFNet
 
 Semantically-Constrained Multi-Scale Deformable Registration Network  
 for Bi-Temporal Remote Sensing Image Registration.
 
-Target journals: IEEE TGRS / ISPRS JPRS
+Target journals: **IEEE TGRS / ISPRS JPRS**
+
+---
 
 ## Architecture
 
 SC-DVFNet combines:
 
-- Swin-T Transformer backbone
-- Feature Pyramid Network
+- Transformer or CNN backbone (Swin-T / ResNet34)
+- Feature Pyramid Network (FPN)
 - Semantic segmentation branch
 - Linear cross-task attention
 - Multi-head DVF estimation (Affine, Projective, Dense)
-- Uncertainty-aware spatial fusion
+- Change-aware registration
+- Spatial transformer warping
+
+---
 
 ## Installation
 
